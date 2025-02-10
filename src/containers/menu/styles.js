@@ -57,19 +57,23 @@ margin: 30px auto 20px auto;
 
 
 export const Categorybutton = styled(Link)`
-text-decoration: none;
-cursor: pointer;
-background:none;
-color: #9758a6;
-font-size: 24px;
-font-weight: bold;
-padding-bottom: 10px;
-line-height: 20px;
-border-bottom: 3px solid #9758a6;
+   display: inline-block;
+   width: max-content;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  color: #9758a6;
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  line-height: 20px;
+  border-bottom: 3px solid #9758a6;
+`;
 
 
 
-`
 
 export const Conteinnerproducts = styled.div`
   display: grid;
