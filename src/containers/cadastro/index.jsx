@@ -25,6 +25,7 @@ export function Registro() {
         name: values.name,
         email: values.email,
         password: values.password,
+        role: ["user"],
       }),
           {
             pending: 'Verificando seus dados',

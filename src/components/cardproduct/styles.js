@@ -11,9 +11,11 @@ border-radius:8px;
 background-color:#ffff;
 
 
+
 min-width:300px;
-max-height:200px;
+max-height:220px;
 box-shadow: rgba(0,0,0,0.35) 0px 5px 15px; 
+position:relative;
 
 div{
     width:100%;
